@@ -34,5 +34,8 @@ COPY --from=build /app/publish .
 # # # Expose the port(s) that the application listens on
 EXPOSE 80
 
+# # Run as non-root user :CKV_K8S_40 
+USER 10000
+
 # # Set the entry point for the container
 ENTRYPOINT ["dotnet", "SuperService.dll"]
