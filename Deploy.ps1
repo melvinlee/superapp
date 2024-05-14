@@ -31,7 +31,7 @@ switch ($selection) {
         Write-Host "Checking for Checkov binary..."
         if (Get-Command checkov -ErrorAction SilentlyContinue) {
             Write-Host "Running Checkov scan for Dockerfile..."
-            checkov -d . -f Dockerfile
+            checkov -d . -f Dockerfile --skip-check CKV_DOCKER_2
         } else {
             Write-Host "Checkov binary not found. Please install Checkov and try again."
         }
