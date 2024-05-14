@@ -16,8 +16,11 @@ Please select an option:
 Enter the number of your selection:
 ```
 
-# Build image
-You can built an image using the provided script `Deploy.ps1`. You 1st need to build Docker image and then run Docker container locally
+# Build Image
+You can built an image using the provided script `Deploy.ps1`.
+
+# Test Image Locally
+You 1st need to build Docker image and then run Docker container locally.
 
 You should see the following console output as the application starts:
 ```sh
