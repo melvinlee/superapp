@@ -11,8 +11,13 @@ $selection = Read-Host "Enter the number of your selection"
 # Run the selected option
 switch ($selection) {
     "1" {
-        Write-Host "Running .NET Core unit tests..."
-        dotnet test super-service/test/*.csproj
+        Write-Host "Checking for .NET Core runtime..."
+        if (Get-Command dotnet -ErrorAction SilentlyContinue) {
+            Write-Host "Running .NET Core unit tests..."
+            dotnet test super-service/test/*.csproj
+        } else {
+            Write-Host ".NET Core runtime not found. Please install .NET Core and try again."
+        }
     }
     "2" {
         Write-Host "Building Docker image..."
