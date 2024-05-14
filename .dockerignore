@@ -1,0 +1,15 @@
+.dockerignore
+.git
+.gitignore
+.vs
+.vscode
+**/*.*proj.user
+**/azds.yaml
+**/bin
+**/charts
+**/Dockerfile
+**/test
+**/obj
+readme.md
+*.sln
+dockerfile
