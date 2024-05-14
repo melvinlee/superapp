@@ -26,3 +26,10 @@ ad3774b7717378ded8e9fa01a0956f2a471de5337f2eaf6cc4820e7cff132acb
 ```
 
 After the application starts, navigate to http://localhost:80/time in your web browser.
+
+You can see the app running via `docker image ls`.
+
+```sh
+PS docker container ls
+ad3774b77173   aspnetcore/superapp   "dotnet SuperService…"   5 minutes ago   Up 5 minutes   0.0.0.0:80->80/tcp   fervent_rubin
+```
