@@ -18,6 +18,8 @@ Please select an option:
 2. Build Docker image
 3. Run Docker container locally
 4. Run Checkov scan for Dockerfile
+5. Deploying Helm chart
+6. Run Gitleaks scan
 Enter the number of your selection:
 ```
 
@@ -73,6 +75,8 @@ Here's a breakdown of what each option does:
 1. Run Checkov scan for Dockerfile: This option checks if the Checkov binary is installed on the machine. If it is, it runs a Checkov scan on the Dockerfile in the current directory, skipping the check CKV_DOCKER_2. If the Checkov binary is not found, it prompts the user to install it.
 
 1. Deploy Helm chart: This option checks if the Helm binary is installed on the machine. If it is, it deploys the Helm chart located in the super-service/charts directory using the values in the super-service/release/production-values.yaml file.
+
+1. Run Gitleaks scan: This option scanning for hard-coded secrets like API keys, tokens, passwords, and certificates.
 
 If the user enters a selection that is not one of the provided options, the script outputs "Invalid selection".
 
