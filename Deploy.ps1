@@ -1,3 +1,8 @@
+param (
+    [Parameter(Mandatory=$false)]
+    [string]$selection
+)
+
 # Present the menu to the user
 Write-Host "Please select an option:"
 Write-Host "1. Run .NET Core unit tests"
@@ -5,8 +10,11 @@ Write-Host "2. Build Docker image"
 Write-Host "3. Run Docker container locally"
 Write-Host "4. Run Checkov scan for Dockerfile"
 
-# Get the user's selection
-$selection = Read-Host "Enter the number of your selection"
+
+if ($selection -eq $null -or $selection -eq "") {
+    # Get the user's selection
+    $selection = Read-Host "Enter the number of your selection"
+}
 
 # Run the selected option
 switch ($selection) {
