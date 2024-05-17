@@ -32,8 +32,8 @@ switch ($selection) {
         docker build -t aspnetcore/superapp .
     }
     "3" {
-        Write-Host "Running Docker container in detact mode..."
-        docker run --rm -p 80:80 -d aspnetcore/superapp
+        Write-Host "Running Docker container..."
+        docker run --rm -p 80:80 aspnetcore/superapp
     }
     "4" {
         Write-Host "Checking for Checkov binary..."
