@@ -72,6 +72,8 @@ Here's a breakdown of what each option does:
 
 1. Run Checkov scan for Dockerfile: This option checks if the Checkov binary is installed on the machine. If it is, it runs a Checkov scan on the Dockerfile in the current directory, skipping the check CKV_DOCKER_2. If the Checkov binary is not found, it prompts the user to install it.
 
+1. Deploy Helm chart: This option checks if the Helm binary is installed on the machine. If it is, it deploys the Helm chart located in the super-service/charts directory using the values in the super-service/release/production-values.yaml file.
+
 If the user enters a selection that is not one of the provided options, the script outputs "Invalid selection".
 
 The script is designed to be run interactively, but it also accepts a selection as a parameter, allowing it to be used in automated scripts.
