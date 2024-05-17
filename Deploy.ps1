@@ -9,6 +9,7 @@ Write-Host "1. Run .NET Core unit tests"
 Write-Host "2. Build Docker image"
 Write-Host "3. Run Docker container locally"
 Write-Host "4. Run Checkov scan for Dockerfile"
+Write-Host "5. Deploying Helm chart"
 
 
 if ($selection -eq $null -or $selection -eq "") {
@@ -42,6 +43,15 @@ switch ($selection) {
             checkov -d . -f Dockerfile --skip-check CKV_DOCKER_2
         } else {
             Write-Host "Checkov binary not found. Please install Checkov and try again."
+        }
+    }
+    "5" {
+        Write-Host "Checking for Helm binary..."
+        if (Get-Command helm -ErrorAction SilentlyContinue) {
+            Write-Host "Deploying Helm chart using override value..."
+            helm upgrade --install superapp super-service/charts -f super-service/release/production-values.yaml
+        } else {
+            Write-Host "Helm binary not found. Please install Helm and try again."
         }
     }
     default {
