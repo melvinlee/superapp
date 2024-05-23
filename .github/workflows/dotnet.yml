@@ -21,10 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  build:
-
+    build:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
@@ -36,7 +34,13 @@ jobs:
     - name: Build
       run: dotnet build super-service/src/SuperService.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test super-service/test/*.csproj --verbosity normal
+      run: dotnet test super-service/test/*.csproj --verbosity normal --logger "trx;LogFileName=TestResults.trx"
+    - name: Publish Test Results
+      uses: dorny/test-reporter@v1
+      if: always()
+      with:
+        reporter: trx
+        path: '**/TestResults.trx'
 
   dockerbuild:
     runs-on: ubuntu-latest
