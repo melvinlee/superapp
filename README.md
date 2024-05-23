@@ -1,4 +1,4 @@
-## 1. Automated deployment 
+## 1. Automated deployment  ![main](https://github.com/melvinlee/superapp/actions/workflows/dotnet.yml/badge.svg)
 
 
 This project demostrate how to deploy .NET Core Web API using a docker container.
