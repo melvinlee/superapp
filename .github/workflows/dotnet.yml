@@ -37,3 +37,10 @@ jobs:
       run: dotnet build super-service/src/SuperService.csproj --configuration Release --no-restore
     - name: Test
       run: dotnet test super-service/test/*.csproj --verbosity normal
+
+  dockerbuild:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build Docker image
+      run: docker build -t aspnetcore/superapp .
