@@ -40,7 +40,7 @@ jobs:
       if: always()
       with:
         name: dotnet test
-        reporter: trx
+        reporter: dotnet-trx
         path: '**/TestResults.trx'
 
   dockerbuild:
