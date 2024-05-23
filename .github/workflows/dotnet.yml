@@ -27,6 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build:
+    needs: scan
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -49,6 +50,7 @@ jobs:
         path: '**/TestResults.trx'
 
   dockerbuild:
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
