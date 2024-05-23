@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore super-service/src/SuperService.csproj
     - name: Build
-      run: dotnet build SuperService.csproj --configuration Release --no-restore
+      run: dotnet build super-service/src/SuperService.csproj --configuration Release --no-restore
     - name: Test
       run: dotnet test super-service/test/*.csproj --verbosity normal
