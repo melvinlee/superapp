@@ -48,9 +48,20 @@ jobs:
         name: dotnet test
         reporter: dotnet-trx
         path: '**/TestResults.trx'
-
-  dockerbuild:
+  
+  checkov-scan:
     needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+    - name: Run Checkov on Dockerfile
+      uses: bridgecrewio/checkov-action@master
+      with:
+        directory: './Dockerfile''
+              
+  dockerbuild:
+    needs: checkov-scan
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
