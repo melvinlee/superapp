@@ -58,8 +58,8 @@ jobs:
     - name: Run Checkov on Dockerfile
       uses: bridgecrewio/checkov-action@master
       with:
-        directory: './Dockerfile'
-              
+        dockerfile_path: dockerfile
+                      
   dockerbuild:
     needs: checkov-scan
     runs-on: ubuntu-latest
