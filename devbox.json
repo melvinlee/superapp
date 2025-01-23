@@ -1,8 +1,8 @@
 {
   "packages": [
     "dotnet-sdk_8",
-    "docker-cli",
-    "helm",
+    "docker",
+    "kubernetes-helm",
     "checkov",
     "gitleaks"
   ],
