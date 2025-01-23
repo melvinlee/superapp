@@ -1,0 +1,261 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "checkov@latest": {
+      "last_modified": "2025-01-15T12:23:19Z",
+      "resolved": "github:NixOS/nixpkgs/ae2fb9f1fb5fcf17fb59f25c2a881c170c501d6f#checkov",
+      "source": "devbox-search",
+      "version": "3.2.353",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1idc3qnbhxrh2bcv7cpxfm3vj093gjkq-checkov-3.2.353",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/99zsa9jl4yqjc09cm2vvy1cyhmjkfvfk-checkov-3.2.353-dist"
+            }
+          ],
+          "store_path": "/nix/store/1idc3qnbhxrh2bcv7cpxfm3vj093gjkq-checkov-3.2.353"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/06z49yp9hq3aac4pzr6bnz8j98nx5kng-checkov-3.2.353",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/g5hv4fh2q25y7pxmnsphzrpq50yvvz3f-checkov-3.2.353-dist"
+            }
+          ],
+          "store_path": "/nix/store/06z49yp9hq3aac4pzr6bnz8j98nx5kng-checkov-3.2.353"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pb4vchckpkici2x7fac3ilqfh4y5lcil-checkov-3.2.353",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/d9lrnqkvb08gikacf5rwrj92da78pg7h-checkov-3.2.353-dist"
+            }
+          ],
+          "store_path": "/nix/store/pb4vchckpkici2x7fac3ilqfh4y5lcil-checkov-3.2.353"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mjf87fjzl9gx2fypb90dndbm6s58a30d-checkov-3.2.353",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/a3b8kaqwz3z6psxjmacpk5cpwkspcskx-checkov-3.2.353-dist"
+            }
+          ],
+          "store_path": "/nix/store/mjf87fjzl9gx2fypb90dndbm6s58a30d-checkov-3.2.353"
+        }
+      }
+    },
+    "docker@latest": {
+      "last_modified": "2025-01-16T05:04:52Z",
+      "resolved": "github:NixOS/nixpkgs/ae06b9c2d83cb5c8b12d7d0e32692e93d1379713#docker",
+      "source": "devbox-search",
+      "version": "27.5.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/df724zgbb3fqpgdm0r88nfl52g3m91pj-docker-27.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/df724zgbb3fqpgdm0r88nfl52g3m91pj-docker-27.5.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/myrxd1yfgkjfm93s9c4mhwmj7w9gk9yz-docker-27.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/myrxd1yfgkjfm93s9c4mhwmj7w9gk9yz-docker-27.5.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r38v3nm4p5myrwmr1x5ia7xqqs9q6dgm-docker-27.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r38v3nm4p5myrwmr1x5ia7xqqs9q6dgm-docker-27.5.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x0fj609dyh29chy2c5shg1y52nmaq7ja-docker-27.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x0fj609dyh29chy2c5shg1y52nmaq7ja-docker-27.5.0"
+        }
+      }
+    },
+    "dotnet-sdk_8@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#dotnet-sdk_8",
+      "source": "devbox-search",
+      "version": "8.0.403",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ln8i3c6ps9ljd5n4acqkdzvdd192m41c-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ln8i3c6ps9ljd5n4acqkdzvdd192m41c-dotnet-sdk-8.0.403"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bhi2ij36nnsnybhnn22zfv99zhrr65r5-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bhi2ij36nnsnybhnn22zfv99zhrr65r5-dotnet-sdk-8.0.403"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p51f8vilp4x81msqswhmlsj1kdiwngv0-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p51f8vilp4x81msqswhmlsj1kdiwngv0-dotnet-sdk-8.0.403"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wdg63igqfkscr4al2xwp5yyl2396wf9n-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wdg63igqfkscr4al2xwp5yyl2396wf9n-dotnet-sdk-8.0.403"
+        }
+      }
+    },
+    "gitleaks@latest": {
+      "last_modified": "2025-01-17T10:46:57Z",
+      "resolved": "github:NixOS/nixpkgs/041c867bad68dfe34b78b2813028a2e2ea70a23c#gitleaks",
+      "source": "devbox-search",
+      "version": "8.23.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n5s7ybjkzhhzgm8sydzib4wf9vzr2hnb-gitleaks-8.23.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n5s7ybjkzhhzgm8sydzib4wf9vzr2hnb-gitleaks-8.23.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0k0f0yhm879kdg8d9g6iklpll3dmilsx-gitleaks-8.23.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0k0f0yhm879kdg8d9g6iklpll3dmilsx-gitleaks-8.23.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8qn8172w64h594pj84mxkyz44kzgfgir-gitleaks-8.23.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8qn8172w64h594pj84mxkyz44kzgfgir-gitleaks-8.23.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p463lwyhwsa7vd8sxrrzyxijchr6ij73-gitleaks-8.23.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p463lwyhwsa7vd8sxrrzyxijchr6ij73-gitleaks-8.23.1"
+        }
+      }
+    },
+    "kubernetes-helm@latest": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#kubernetes-helm",
+      "source": "devbox-search",
+      "version": "3.16.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ldyw27qinlywajskcgp06b0vxqi3j7sw-kubernetes-helm-3.16.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ldyw27qinlywajskcgp06b0vxqi3j7sw-kubernetes-helm-3.16.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lpjy11ccpalk012sbfjxzdgvlbv722a3-kubernetes-helm-3.16.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lpjy11ccpalk012sbfjxzdgvlbv722a3-kubernetes-helm-3.16.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f1141pdh3jzcjx033s0w1h00w21vnlwq-kubernetes-helm-3.16.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f1141pdh3jzcjx033s0w1h00w21vnlwq-kubernetes-helm-3.16.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/smn3ia62s9svrh2sy8sasl8sgkjcylsp-kubernetes-helm-3.16.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/smn3ia62s9svrh2sy8sasl8sgkjcylsp-kubernetes-helm-3.16.4"
+        }
+      }
+    }
+  }
+}

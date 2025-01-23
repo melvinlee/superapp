@@ -1,12 +1,17 @@
 {
   "packages": [
-    "dotnet-sdk_8",
-    "docker",
-    "kubernetes-helm",
-    "checkov",
-    "gitleaks"
+    "dotnet-sdk_8@latest",
+    "docker@latest", 
+    "kubernetes-helm@latest",
+    "checkov@latest",
+    "gitleaks@latest"
   ],
   "shell": {
     "init_hook": "echo 'Devbox environment ready with all prerequisites installed'"
+  },
+  "env": {
+    "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+    "DOTNET_NOLOGO": "1",
+    "DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1"
   }
 }
