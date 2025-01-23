@@ -69,7 +69,6 @@ The `Deploy.ps1` script provides the following capabilities:
 
 | Option | Command | Description |
 |--------|---------|-------------|
-
 | 1 | `./Deploy.ps1 -selection 1` | Run xUnit tests in `super-service/test` directory |
 | 2 | `./Deploy.ps1 -selection 2` | Build Docker image tagged `aspnetcore/superapp` |
 | 3 | `./Deploy.ps1 -selection 3` | Run container locally on port 80 |
