@@ -1,5 +1,5 @@
 # Use the official .NET Core SDK image as the base image
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -23,7 +23,7 @@ RUN dotnet build SuperService.csproj --configuration Release --no-restore
 RUN dotnet publish SuperService.csproj --configuration Release --no-build --output /app/publish
 
 # # # Use the official .NET Core runtime image as the base image for the final image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 
 # # Set the working directory inside the container
 WORKDIR /super-service
