@@ -1,4 +1,4 @@
-# SuperApp Deployment ![main](https://github.com/melvinlee/superapp/actions/workflows/dotnet.yml/badge.svg)
+# SuperApp Deployment ![main](https://github.com/melvinlee/superapp/actions/workflows/dotnet.yml/badge.svg) ![devbox](https://img.shields.io/badge/devbox-ready-blue)
 
 This project demonstrates how to deploy a .NET Web API using modern DevOps practices including:
 - Docker containerization
