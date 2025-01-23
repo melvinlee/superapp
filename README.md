@@ -8,11 +8,19 @@ This project demonstrates how to deploy a .NET Web API using modern DevOps pract
 
 ## Prerequisites
 
+You can install prerequisites manually or use Devbox for automatic setup:
+
+### Manual Installation
 - [.NET 8.0](https://dot.net/core) or later
 - [Docker](https://docs.docker.com/engine/install/)
 - [Helm](https://helm.sh/docs/intro/install/)
 - [Checkov](https://www.checkov.io/1.Welcome.html)
 - [Gitleaks](https://github.com/gitleaks/gitleaks)
+
+### Using Devbox (Recommended)
+1. Install [Devbox](https://www.jetpack.io/devbox)
+2. Run `devbox shell` in the project root
+3. All prerequisites will be automatically installed in an isolated environment
 
 ## Deployment Script
 

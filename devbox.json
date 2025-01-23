@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "dotnet-sdk_8",
+    "docker-cli",
+    "helm",
+    "checkov",
+    "gitleaks"
+  ],
+  "shell": {
+    "init_hook": "echo 'Devbox environment ready with all prerequisites installed'"
+  }
+}
