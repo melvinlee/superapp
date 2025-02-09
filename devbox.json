@@ -3,7 +3,7 @@
     "dotnet-sdk_8@latest",
     "docker@latest", 
     "kubernetes-helm@latest",
-    "checkov@latest",
+    "checkov@2.5.15",
     "gitleaks@latest"
   ],
   "shell": {
