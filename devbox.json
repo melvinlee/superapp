@@ -1,6 +1,6 @@
 {
   "packages": [
-    "dotnet-sdk_8@latest",
+    "dotnet-sdk_8@8.0.403",
     "docker@latest", 
     "kubernetes-helm@latest",
     "checkov@latest",
