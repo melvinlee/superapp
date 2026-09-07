@@ -1,7 +1,7 @@
 {
   "packages": [
     "dotnet-sdk_8@latest",
-    "docker@latest", 
+    "docker@29.7.2", 
     "kubernetes-helm@latest",
     "checkov@latest",
     "gitleaks@latest"
