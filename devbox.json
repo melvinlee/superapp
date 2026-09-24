@@ -4,7 +4,7 @@
     "docker@latest", 
     "kubernetes-helm@latest",
     "checkov@latest",
-    "gitleaks@latest"
+    "gitleaks@7.6.1"
   ],
   "shell": {
     "init_hook": "echo 'Devbox environment ready with all prerequisites installed'"
