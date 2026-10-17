@@ -65,51 +65,41 @@
         }
       }
     },
-    "docker@latest": {
-      "last_modified": "2025-01-16T05:04:52Z",
-      "resolved": "github:NixOS/nixpkgs/ae06b9c2d83cb5c8b12d7d0e32692e93d1379713#docker",
+    "docker@29.8.2": {
+      "last_modified": "2026-10-16T02:15:57Z",
+      "resolved": "github:NixOS/nixpkgs/f20cd90e28fe0403873f473b29e42662cd86e8c4#docker",
       "source": "devbox-search",
-      "version": "27.5.0",
+      "version": "29.8.2",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/df724zgbb3fqpgdm0r88nfl52g3m91pj-docker-27.5.0",
+              "path": "/nix/store/c8cwxab64yi47xwixjmw98p16da3v5zz-docker-29.8.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/df724zgbb3fqpgdm0r88nfl52g3m91pj-docker-27.5.0"
+          "store_path": "/nix/store/c8cwxab64yi47xwixjmw98p16da3v5zz-docker-29.8.2"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/myrxd1yfgkjfm93s9c4mhwmj7w9gk9yz-docker-27.5.0",
+              "path": "/nix/store/5j3b5l5nbvbpzxlcq2ni7fc9yg707gp3-docker-29.8.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/myrxd1yfgkjfm93s9c4mhwmj7w9gk9yz-docker-27.5.0"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/r38v3nm4p5myrwmr1x5ia7xqqs9q6dgm-docker-27.5.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/r38v3nm4p5myrwmr1x5ia7xqqs9q6dgm-docker-27.5.0"
+          "store_path": "/nix/store/5j3b5l5nbvbpzxlcq2ni7fc9yg707gp3-docker-29.8.2"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/x0fj609dyh29chy2c5shg1y52nmaq7ja-docker-27.5.0",
+              "path": "/nix/store/pjlf1xhv3c6p62vhx007rar3mnja32hy-docker-29.8.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/x0fj609dyh29chy2c5shg1y52nmaq7ja-docker-27.5.0"
+          "store_path": "/nix/store/pjlf1xhv3c6p62vhx007rar3mnja32hy-docker-29.8.2"
         }
       }
     },
